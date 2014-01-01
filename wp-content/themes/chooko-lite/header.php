@@ -64,10 +64,7 @@ if ($favicon): ?>
 	<div class="container">
 		<div id="logo">
 		<a href="<?php echo home_url(); ?>">
-            <h1>
-                Nhà may Tường Vy
-            </h1>
-		<!--<img src="<?php /*echo icefit_get_option('logo'); */?>" alt="<?php /*bloginfo('name') */?>">-->
+		    <img src="<?php echo icefit_get_option('logo'); ?>" alt="<?php bloginfo('name') ?>">
 		</a>
 		</div>
 	</div>
